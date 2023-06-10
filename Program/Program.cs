@@ -10,4 +10,7 @@ class Program
     }
 
     delegate int Suma(int num1, int num2);
+
+    static int Restar(int num1, int num2) => num1 - num2;
+    //Este metodo resta
 }
